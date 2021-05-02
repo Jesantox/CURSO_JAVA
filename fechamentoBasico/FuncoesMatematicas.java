@@ -21,8 +21,8 @@ public class FuncoesMatematicas {
 	 @param b
 	 @return --> <i> Retorna o resultado da Soma </i>
 	 */
-	public static int adicao(int a, int b) {
-		int adicao = a + b;
+	public static double adicao(double a, double b) {
+		double adicao = a + b;
 		
 		return adicao;
 	}
@@ -35,8 +35,8 @@ public class FuncoesMatematicas {
 	 @param b
 	 @return --> <i> Retorna o resultado da Subtração </i>
 	 */
-	public static int subtracao(int a, int b) {
-		int subtracao = a - b;
+	public static double subtracao(double a, double b) {
+		double subtracao = a - b;
 		
 		return subtracao;
 	}
@@ -49,8 +49,8 @@ public class FuncoesMatematicas {
 	 @param b
 	 @return --> <i> Retorna o resultado da Divisão </i>
 	 */
-	public static int divisao(int a, int b) {
-		int divisao = a / b;
+	public static double divisao(double a, double b) {
+		double divisao = a / b;
 		
 		return divisao;
 	}
@@ -63,8 +63,8 @@ public class FuncoesMatematicas {
 	 @param b
 	 @return -->  <i> Retorna o resultado da Multiplicação </i> 
 	 */
-	public static int multiplicacao(int a, int b) {
-		int multiplicacao = a * b;
+	public static double multiplicacao(double a, double b) {
+		double multiplicacao = a * b;
 		
 		return multiplicacao;
 	}
