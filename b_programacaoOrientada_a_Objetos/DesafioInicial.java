@@ -3,8 +3,6 @@ package b_programacaoOrientada_a_Objetos;
 import java.util.Locale;
 import java.util.Scanner;
 
-import a_fechamentoBasico.Funcoes;
-
 /**
   @author <u> Jesantox </u> <br>
   
@@ -64,7 +62,7 @@ public class DesafioInicial {
 
 // 		----------------------------------------------------------------------------------------------------	
 		
-		double maior = Funcoes.maiorValor(_01area, _02area);
+		double maior = a_fechamentoBasico.Funcoes.maiorValor(_01area, _02area);
 			
 		System.out.printf(" \n Área Total do 1º Triângulo : %.4f",_01area);
 		System.out.printf(" \n Área Total do 2º Triângulo : %.4f",Math.abs(_02area), "\n");
