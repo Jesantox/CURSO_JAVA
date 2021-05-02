@@ -3,16 +3,56 @@ package basicao.funcoes;
 /**
  * 
  * @author Jesantox
- * 
- *         Quantidade de Caracteres;
- *         Retorna Caracteres;
- *         Texto Maiúsculo e Minúsculo;
- *         Copiar Caracteres;
- *         Remover Espaços;
- *         Substituir Caracteres;
- *         Converter Dados;
- *         Localizar Carateres;
- *
+  
+-------------------------------------------------------------------------------------------------------        
+        Quantidade de Caracteres
+        
+		Fórmula : variável.length()
+           
+-------------------------------------------------------------------------------------------------------         
+        Retorna Caracteres
+        
+		Fórmula : variável.charAt(index)
+		
+-------------------------------------------------------------------------------------------------------        
+        Texto Maiúsculo e Minúsculo
+        
+		Fórmula : variável.toLowerCase() --> Minúsculo
+		Fórmula : variável.toUpperCase() --> Maiúsculo
+
+-------------------------------------------------------------------------------------------------------        
+        Copiar Caracteres
+        
+		Fórmula : variável.substring(início, fim)
+		Fórmula : variável.substring(inicio)
+		
+-------------------------------------------------------------------------------------------------------        
+		Remover Espaços
+		
+		Fórmula : variável.trim()
+		
+-------------------------------------------------------------------------------------------------------      
+		Substituir Caracteres
+		
+		Fórmula : variável.replace(antigo, novo)
+		
+-------------------------------------------------------------------------------------------------------        
+		Converter Dados
+
+-------------------------------------------------------------------------------------------------------        
+ 
+ 		Localizar Carateres
+ 		
+ 		Fórmula : texto.indexOf(caracter)
+ 		Fórmula : texto.indexOf(caracter, index inicial)
+ 		
+ 		Fórmula : texto.indexOf(palavra)
+ 		Fórmula : texto.indexOf(palavra, index inicial)
+ 		
+-------------------------------------------------------------------------------------------------------        
+ 		Recortar Strings
+
+
  */
 public class Textos {
 
@@ -123,6 +163,24 @@ public class Textos {
 		System.out.println(" indice: " + texto.indexOf(caractere, 10));
 		System.out.println(" indice: " + texto.indexOf("Ensino"));
 		System.out.println(" indice: " + texto.indexOf("Java", 15));
+		
+//----------------------------------------------------------------------------------------------------------
+
+//		RECORTAR STRINGS 
+		
+		String texto01 = "Olá, Jean. Tudo bem?";
+		String[] vect = texto01.split(" ");
+		
+		String palavra01 = vect[0].replace(",", " ");
+		String palavra02 = vect[1].replace(".", " ");
+		String palavra03 = vect[2];
+		String palavra04 = vect[3].replace("?", " ");
+		
+		System.out.println(" 1º Palavra : " + palavra01 + "\n" +
+				           " 2º Palavra : " + palavra02 + "\n" + 
+				           " 3º Palavra : " + palavra03 + "\n" +
+				           " 4º Palavra : " + palavra04);
+	
 	}
 
 }
