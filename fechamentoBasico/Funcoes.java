@@ -16,12 +16,11 @@ import java.util.Scanner;
  *         
  *         }
  *         
- *         <h2> Definições </h2> 
+ *         <h2> Definições </h2> <br>
  *         
- *         <b> public </b> : <i> Significa que a função pode ser usado em outras classes.       </i>
- *         <b> static </b> : <i> Significa que a função pode ser chamada mesmo criando Objetos. </i>
- *         <b> void   </b> : <i> Significa que a função não retorna um valor. Ou seja, tem o tipo vazio. <br>
- *                               Não retorna um valor. Somente atua.                            </i>
+ *         <b> public </b> : <i> Significa que a função pode ser usado em outras classes.       </i> <br>
+ *         <b> static </b> : <i> Significa que a função pode ser chamada mesmo criando Objetos. </i> <br>
+ *         <b> void   </b> : <i> Significa que a função não retorna um valor. Ou seja, tem o tipo vazio. Não retorna um valor. Somente atua.                            </i>
  *         
  *         
  *         
@@ -47,12 +46,14 @@ public class Funcoes {
 		sc.close();
 	}
 
-/**  ----------------------------------------------------------------------------------------------------
-   <b> Descobrir o maior valor dentre 3 Números </b>
+// ----------------------------------------------------------------------------------------------------
+
+/**  
+   	<u> <b> Descobrir o maior valor dentre 3 Números </b> </u>
 	 
-	   @param a --> <b> 1º Parâmetro </b>
-	   @param b --> <b> 2º Parâmetro </b>
-	   @param c --> <b> 3º Parâmetro </b>
+	   @param a <b> 1º Parâmetro </b>
+	   @param b <b> 2º Parâmetro </b>
+	   @param c <b> 3º Parâmetro </b>
 	 
 	   @return  --> <b> Maior valor  </b> */
 	public static int maiorValor(int a, int b, int c) {
