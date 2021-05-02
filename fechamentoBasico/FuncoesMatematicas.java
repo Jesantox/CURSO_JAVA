@@ -1,14 +1,14 @@
 package fechamentoBasico;
 
 /**
-  @author <b> Jesantox </b>
+  @author <u> <b> Jesantox </b> </u> <br>
   
-  <h1> Funções Matemáticas - <i> Operações Básicas </i> </h1>
+  <h1> Funções Matemáticas - <i> Operações Básicas </i> </h1> <br>
   
-  <b> Adição        </b>
-  <b> Subtração     </b>
-  <b> Divisão       </b>
-  <b> Multiplicação </b>
+  <b> Adição        </b> <br>
+  <b> Subtração     </b> <br>
+  <b> Divisão       </b> <br>
+  <b> Multiplicação </b> 
  
  */
 public class FuncoesMatematicas {
