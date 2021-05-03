@@ -91,11 +91,24 @@ public class Funcoes {
 			return aux;        // RESULTADO 
 		}
 	
-/**  ----------------------------------------------------------------------------------------------------	
+// 	----------------------------------------------------------------------------------------------------	
+/**  
 	   <b> Exibir na tela </b>
 	   
 	   @param value --> <b> variável </b> */
 	public static void imprimir(int value) {
+		
+		System.out.println("O maior valor é : " + value);
+	
+	}
+	
+//	----------------------------------------------------------------------------------------------------	
+
+/**  
+	   <b> Exibir na tela </b>
+	   
+	   @param value --> <b> variável </b> */
+	public static void imprimir(double value) {
 		
 		System.out.println("O maior valor é : " + value);
 	
